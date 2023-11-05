@@ -17,3 +17,5 @@ def show(imgs):
         img = F.to_pil_image(img)
         axs[0, i].imshow(np.asarray(img))
         axs[0, i].set(xticklabels=[], yticklabels=[], xticks=[], yticks=[])
+    
+print('test commit')
